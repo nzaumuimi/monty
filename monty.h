@@ -95,14 +95,14 @@ int print_pinterror(unsigned int line_number);
 void my_pint(stack_t **stack, unsigned int line_number);
 
 /* 13.pop.c prototpes */
-void _pop(stack_t **stack, unsigned int line_number);
-int pop_error(unsigned int line_number);
+void my_pop(stack_t **stack, unsigned int line_number);
+int print_poperror(unsigned int line_number);
 
 /* 14.briefstack.c prototpes */
 int briefstack_error(unsigned int line_number, char *op);
 
 /* 15.swap.c prototpes */
-void _swap(stack_t **stack, unsigned int line_number);
+void my_swap(stack_t **stack, unsigned int line_number);
 
 /* 16.add.c prototpes */
 void _add(stack_t **stack, unsigned int line_number);
