@@ -123,9 +123,9 @@ void my_mul(stack_t **stack, unsigned int line_number);
 /* 21.mod.c prototpes */
 void my_mod(stack_t **stack, unsigned int line_number);
 
-/* 22.pchar.c prototpes */
-int pchar_error(unsigned int line_number, char *message);
-void _pchar(stack_t **stack, unsigned int line_number);
+/* 22.my_pchar.c prototpes */
+int print_pcharerror(unsigned int line_number, char *message);
+void my_pchar(stack_t **stack, unsigned int line_number);
 
 /* 23.pstr.c prototpes */
 void _pstr(stack_t **stack, unsigned int line_number);
