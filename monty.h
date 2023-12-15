@@ -121,7 +121,7 @@ int print_diverror(unsigned int line_number);
 void my_mul(stack_t **stack, unsigned int line_number);
 
 /* 21.mod.c prototpes */
-void _mod(stack_t **stack, unsigned int line_number);
+void my_mod(stack_t **stack, unsigned int line_number);
 
 /* 22.pchar.c prototpes */
 int pchar_error(unsigned int line_number, char *message);
