@@ -75,6 +75,7 @@ void (*process_func(char *opcode))(stack_t**, unsigned int)
 	instruction_t op_funcs[] = {
 		{"push", _push},
 		{"pall", _pall},
+		{"pint", my_pint},
 		{NULL, NULL}
 	};
 	int i;

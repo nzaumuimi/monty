@@ -91,8 +91,8 @@ void _push(stack_t **stack, unsigned int line_number);
 void _pall(stack_t **stack, unsigned int line_number);
 
 /* 12.pint.c prototpes */
-int pint_error(unsigned int line_number);
-void _pint(stack_t **stack, unsigned int line_number);
+int print_pinterror(unsigned int line_number);
+void my_pint(stack_t **stack, unsigned int line_number);
 
 /* 13.pop.c prototpes */
 void _pop(stack_t **stack, unsigned int line_number);
