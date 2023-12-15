@@ -85,6 +85,7 @@ void (*process_func(char *opcode))(stack_t**, unsigned int)
 		{"mul", my_mul},
 		{"mod", my_mod},
 		{"pchar", my_pchar},
+		{"pstr", my_pstr},
 		{NULL, NULL}
 	};
 	int i;

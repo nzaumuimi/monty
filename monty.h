@@ -127,8 +127,8 @@ void my_mod(stack_t **stack, unsigned int line_number);
 int print_pcharerror(unsigned int line_number, char *message);
 void my_pchar(stack_t **stack, unsigned int line_number);
 
-/* 23.pstr.c prototpes */
-void _pstr(stack_t **stack, unsigned int line_number);
+/* 23.my_pstr.c prototpes */
+void my_pstr(stack_t **stack, unsigned int line_number);
 
 /* 24.rotl.c prototpes */
 void _rotl(stack_t **stack, unsigned int line_number);
