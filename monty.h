@@ -130,15 +130,15 @@ void my_pchar(stack_t **stack, unsigned int line_number);
 /* 23.my_pstr.c prototpes */
 void my_pstr(stack_t **stack, unsigned int line_number);
 
-/* 24.rotl.c prototpes */
-void _rotl(stack_t **stack, unsigned int line_number);
+/* 24.my_rotl.c prototpes */
+void my_rotl(stack_t **stack, unsigned int line_number);
 
-/* 25.rotr.c prototpes */
-void _rotr(stack_t **stack, unsigned int line_number);
+/* 25.my_rotr.c prototpes */
+void my_rotr(stack_t **stack, unsigned int line_number);
 
-/* 26.stack_queue.c prototpes */
-void _stack(stack_t **stack, unsigned int line_number);
-void _queue(stack_t **stack, unsigned int line_number);
+/* 26.my_stack_queue.c prototpes */
+void my_stack(stack_t **stack, unsigned int line_number);
+void my_queue(stack_t **stack, unsigned int line_number);
 
 
 #endif
