@@ -81,6 +81,7 @@ void (*process_func(char *opcode))(stack_t**, unsigned int)
 		{"add", my_add},
 		{"nop", my_nop},
 		{"sub", my_sub},
+		{"div", my_div},
 		{NULL, NULL}
 	};
 	int i;
