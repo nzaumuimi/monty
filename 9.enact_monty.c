@@ -78,6 +78,7 @@ void (*process_func(char *opcode))(stack_t**, unsigned int)
 		{"pint", my_pint},
 		{"pop", my_pop},
 		{"swap", my_swap},
+		{"add", my_add},
 		{NULL, NULL}
 	};
 	int i;

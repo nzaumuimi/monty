@@ -90,25 +90,25 @@ int pushint_error(unsigned int line_number);
 void _push(stack_t **stack, unsigned int line_number);
 void _pall(stack_t **stack, unsigned int line_number);
 
-/* 12.pint.c prototpes */
+/* 12.my_pint.c prototpes */
 int print_pinterror(unsigned int line_number);
 void my_pint(stack_t **stack, unsigned int line_number);
 
-/* 13.pop.c prototpes */
+/* 13.my_pop.c prototpes */
 void my_pop(stack_t **stack, unsigned int line_number);
 int print_poperror(unsigned int line_number);
 
 /* 14.briefstack.c prototpes */
 int briefstack_error(unsigned int line_number, char *op);
 
-/* 15.swap.c prototpes */
+/* 15.my_swap.c prototpes */
 void my_swap(stack_t **stack, unsigned int line_number);
 
-/* 16.add.c prototpes */
-void _add(stack_t **stack, unsigned int line_number);
+/* 16.my_add.c prototpes */
+void my_add(stack_t **stack, unsigned int line_number);
 
-/* 17.nop.c prototpes */
-void _nop(stack_t **stack, unsigned int line_number);
+/* 17.my_nop.c prototpes */
+void my_nop(stack_t **stack, unsigned int line_number);
 
 /* 18.sub.c prototpes */
 void _sub(stack_t **stack, unsigned int line_number);
