@@ -111,7 +111,7 @@ void my_add(stack_t **stack, unsigned int line_number);
 void my_nop(stack_t **stack, unsigned int line_number);
 
 /* 18.sub.c prototpes */
-void _sub(stack_t **stack, unsigned int line_number);
+void my_sub(stack_t **stack, unsigned int line_number);
 
 /* 19.div.c prototpes */
 void _div(stack_t **stack, unsigned int line_number);
