@@ -110,15 +110,15 @@ void my_add(stack_t **stack, unsigned int line_number);
 /* 17.my_nop.c prototpes */
 void my_nop(stack_t **stack, unsigned int line_number);
 
-/* 18.sub.c prototpes */
+/* 18.my_sub.c prototpes */
 void my_sub(stack_t **stack, unsigned int line_number);
 
-/* 19.div.c prototpes */
-void _div(stack_t **stack, unsigned int line_number);
-int div_error(unsigned int line_number);
+/* 19.my_div.c prototpes */
+void my_div(stack_t **stack, unsigned int line_number);
+int print_diverror(unsigned int line_number);
 
-/* 20.mul.c prototpes */
-void _mul(stack_t **stack, unsigned int line_number);
+/* 20.my_mul.c prototpes */
+void my_mul(stack_t **stack, unsigned int line_number);
 
 /* 21.mod.c prototpes */
 void _mod(stack_t **stack, unsigned int line_number);
@@ -139,16 +139,6 @@ void _rotr(stack_t **stack, unsigned int line_number);
 /* 26.stack_queue.c prototpes */
 void _stack(stack_t **stack, unsigned int line_number);
 void _queue(stack_t **stack, unsigned int line_number);
-
-
-
-
-
-
-
-
-
-
 
 
 #endif
