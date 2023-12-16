@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
-  * malloc_fault - Outputs malloc failed when unable to malloc.
+  * mallocfailed_fault - Outputs malloc failed when unable to malloc.
   *
   * Return: EXIT_FAILURE.
   */
