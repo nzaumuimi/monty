@@ -136,7 +136,7 @@ void my_rotl(stack_t **stack, unsigned int line_number);
 /* 25.my_rotr.c prototpes */
 void my_rotr(stack_t **stack, unsigned int line_number);
 
-/* 26.my_stack_queue.c prototpes */
+/* 26.my_stack_n_queue.c prototpes */
 void my_stack(stack_t **stack, unsigned int line_number);
 void my_queue(stack_t **stack, unsigned int line_number);
 
